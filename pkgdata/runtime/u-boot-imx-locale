@@ -1,0 +1,13 @@
+PN: u-boot-imx
+PV: 2015.04
+PR: r0
+PKGV: 2015.04
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: U-Boot provided by Freescale with focus on  i.MX reference boards.
+SUMMARY: Universal Boot Loader for embedded devices
+SECTION: bootloaders
+PKG_u-boot-imx-locale: u-boot-imx-locale
+FILES_u-boot-imx-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_u-boot-imx-locale: 0

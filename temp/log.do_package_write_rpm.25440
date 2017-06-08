@@ -1,0 +1,143 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function do_package_write_rpm
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+DEBUG: Executing python function do_package_rpm
+DEBUG: Executing python function write_specfile
+NOTE: Creating EMPTY RPM Package for u-boot-imx-dbg
+NOTE: Not creating empty RPM package for u-boot-imx-staticdev
+NOTE: Creating EMPTY RPM Package for u-boot-imx-dev
+NOTE: Not creating empty RPM package for u-boot-imx-doc
+NOTE: Not creating empty RPM package for u-boot-imx-locale
+NOTE: Creating RPM package for u-boot-imx
+NOTE: Creating RPM package for u-boot-imx
+DEBUG: Python function write_specfile finished
+DEBUG: PKGWRITEDIR: /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms/imx7dea_ucom
+DEBUG: Executing shell function BUILDSPEC
++ 
++ cd
+cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git
+ /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git
+
+
++ 
++ BUILDSPEC
+BUILDSPEC
+
+
++ 
++ rpmbuild
+rpmbuild --nodeps
+ --nodeps --short-circuit
+ --short-circuit --target
+ --target imx7dea_ucom-poky-linux-gnueabi
+ imx7dea_ucom-poky-linux-gnueabi --buildroot
+ --buildroot /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/package
+ /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/package --define
+ --define _topdir /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0
+ _topdir /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0 --define
+ --define _rpmdir /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms/imx7dea_ucom
+ _rpmdir /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms/imx7dea_ucom --define
+ --define _builddir /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git
+ _builddir /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git --define _build_name_fmt %%{NAME}-%%{VERSION}-%%{RELEASE}.%%{ARCH}.rpm --define _use_internal_dependency_generator 0 --define __find_requires %{nil} --define __find_provides %{nil} --define _unpackaged_files_terminate_build 0 --define debug_package %{nil} --define _rpmfc_magic_path /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/share/misc/magic.mgc --define _tmppath /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0 -bb /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/u-boot-imx.spec
+
+ --define _build_name_fmt %%{NAME}-%%{VERSION}-%%{RELEASE}.%%{ARCH}.rpm --define _use_internal_dependency_generator 0 --define __find_requires %{nil} --define __find_provides %{nil} --define _unpackaged_files_terminate_build 0 --define debug_package %{nil} --define _rpmfc_magic_path /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/share/misc/magic.mgc --define _tmppath /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0 -bb /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/u-boot-imx.spec
+Building target platforms: imx7dea_ucom-poky-linux-gnueabi
+Processing files: u-boot-imx-2015.04-r0.imx7dea_ucom
+
+Building target platforms: imx7dea_ucom-poky-linux-gnueabi
+Processing files: u-boot-imx-2015.04-r0.imx7dea_ucom
+Processing files: u-boot-imx-dbg-2015.04-r0.imx7dea_ucom
+
+Processing files: u-boot-imx-dbg-2015.04-r0.imx7dea_ucom
+Processing files: u-boot-imx-dev-2015.04-r0.imx7dea_ucom
+Checking for unpackaged file(s): /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin/../lib/rpm/check-files /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/package
+
+Processing files: u-boot-imx-dev-2015.04-r0.imx7dea_ucom
+Checking for unpackaged file(s): /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin/../lib/rpm/check-files /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/package
+Wrote: /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms/imx7dea_ucom/u-boot-imx-2015.04-r0.imx7dea_ucom.rpm
+
+Wrote: /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms/imx7dea_ucom/u-boot-imx-2015.04-r0.imx7dea_ucom.rpm
+Wrote: /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms/imx7dea_ucom/u-boot-imx-dbg-2015.04-r0.imx7dea_ucom.rpm
+
+Wrote: /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms/imx7dea_ucom/u-boot-imx-dbg-2015.04-r0.imx7dea_ucom.rpm
+Wrote: /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms/imx7dea_ucom/u-boot-imx-dev-2015.04-r0.imx7dea_ucom.rpm
+
+Wrote: /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms/imx7dea_ucom/u-boot-imx-dev-2015.04-r0.imx7dea_ucom.rpm
++ ret=0
++ trap  0
++ exit 0
+
++ ret=0
++ trap  0
++ exit 0
+DEBUG: Shell function BUILDSPEC finished
+DEBUG: Python function do_package_rpm finished
+DEBUG: Python function do_package_write_rpm finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Staging files from /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms to /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/deploy/rpm
+NOTE: Using umask 002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-rpms for packaging at /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_write_rpm/deploy-rpms
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_write_rpm/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom' | tee /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_write_rpm/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
++ 
++ cd
+cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_write_rpm/
+ /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_write_rpm/
+
+
++ 
++ sstate_create_package
+sstate_create_package
+
+
++ 
++ mktemp
+mktemp /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.XXXXXXXX
+ /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.XXXXXXXX
+
+
++ TFILE=/home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.yXqQ6HKk
+
++ TFILE=/home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.yXqQ6HKk
++ ls -A
+
++ ls -A
++ [ deploy-rpms ]
++ set +e
++ tar -czf /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.yXqQ6HKk deploy-rpms
+
++ [ deploy-rpms ]
++ set +e
++ tar -czf /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.yXqQ6HKk deploy-rpms
++ ret=0
++ [ 0 -ne 0 ]
++ set -e
++ chmod 0664 /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.yXqQ6HKk
+
++ ret=0
++ [ 0 -ne 0 ]
++ set -e
++ chmod 0664 /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.yXqQ6HKk
++ mv -f /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.yXqQ6HKk /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz
+
++ mv -f /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz.yXqQ6HKk /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/66/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:663c8f4eafdb131db8b67132e29e2d83_package_write_rpm.tgz
++ [ -n  ]
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0
++ rm -rf /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_write_rpm/
+
++ [ -n  ]
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0
++ rm -rf /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_write_rpm/
++ ret=0
++ trap  0
++ exit 0
+
++ ret=0
++ trap  0
++ exit 0
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Python function sstate_task_postfunc finished

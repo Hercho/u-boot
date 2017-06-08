@@ -1,0 +1,14 @@
+PN: u-boot-imx
+PV: 2015.04
+PR: r0
+PKGV: 2015.04
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-imx-dbg: U-Boot provided by Freescale with focus on  i.MX reference boards.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_u-boot-imx-dbg: Universal Boot Loader for embedded devices - Debugging files
+SECTION_u-boot-imx-dbg: devel
+PKG_u-boot-imx-dbg: u-boot-imx-dbg
+ALLOW_EMPTY_u-boot-imx-dbg: 1
+FILES_u-boot-imx-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/u-boot-imx/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/u-boot-imx/.debug /usr/lib/matchbox-panel/.debug /usr/lib/u-boot-imx/u-boot-imx/.debug /usr/src/debug /boot/.debug
+FILES_INFO: {}
+PKGSIZE_u-boot-imx-dbg: 0

@@ -1,0 +1,45 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Running export SSH_AGENT_PID="1361"; export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export http_proxy="http://peron:8080"; export PATH="/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/scripts:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom/usr/bin/crossscripts:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/sbin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/bin:/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/scripts:/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/bitbake/bin:/home/hernan/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"; export HOME="/home/hernan"; git -c core.fsyncobjectfiles=0 clone -s -n /home/hernan/yocto_EA/ucom-4.1.15/downloads//git2/git.freescale.com.imx.uboot-imx.git/ /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git/
+DEBUG: Running export SSH_AGENT_PID="1361"; export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export http_proxy="http://peron:8080"; export PATH="/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/scripts:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom/usr/bin/crossscripts:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/sbin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/bin:/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/scripts:/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/bitbake/bin:/home/hernan/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"; export HOME="/home/hernan"; git -c core.fsyncobjectfiles=0 remote set-url origin git://git.freescale.com/imx/uboot-imx.git
+DEBUG: Running export SSH_AGENT_PID="1361"; export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export http_proxy="http://peron:8080"; export PATH="/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/scripts:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom/usr/bin/crossscripts:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/sbin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/bin:/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/scripts:/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/bitbake/bin:/home/hernan/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"; export HOME="/home/hernan"; git -c core.fsyncobjectfiles=0 checkout -B imx_v2015.04_4.1.15_1.0.0_ga ede7538aefc334ce3bbded966211c149659f19a6
+DEBUG: Running export SSH_AGENT_PID="1361"; export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export http_proxy="http://peron:8080"; export PATH="/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/scripts:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom/usr/bin/crossscripts:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/usr/bin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/sbin:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/x86_64-linux/bin:/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/scripts:/home/hernan/yocto_EA/ucom-4.1.15/sources/poky/bitbake/bin:/home/hernan/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"; export HOME="/home/hernan"; git -c core.fsyncobjectfiles=0 branch --set-upstream imx_v2015.04_4.1.15_1.0.0_ga origin/imx_v2015.04_4.1.15_1.0.0_ga
+DEBUG: Searching for 0001-adding-EA-COM-boards_2015_04_3.14.52.patch in paths:
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/fsl-imx-fb
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/fsl-imx-fb
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/fsl-imx-fb
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/fsl-imx-fb
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/imx7dea-ucom
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/imx7dea-ucom
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/imx7dea-ucom
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/imx7dea-ucom
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/mx7d
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/mx7d
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/mx7d
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/mx7d
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/mx7
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/mx7
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/mx7
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/mx7
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/imx
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/imx
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/imx
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/imx
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/armv7a
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/armv7a
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/armv7a
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/armv7a
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/arm
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/arm
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/arm
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/arm
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/
+NOTE: Unpacking /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/0001-adding-EA-COM-boards_2015_04_3.14.52.patch to /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+NOTE: Checking has /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git been created
+DEBUG: Python function do_qa_unpack finished

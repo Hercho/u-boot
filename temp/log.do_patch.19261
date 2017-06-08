@@ -1,0 +1,38 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for 0001-adding-EA-COM-boards_2015_04_3.14.52.patch in paths:
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/fsl-imx-fb
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/fsl-imx-fb
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/fsl-imx-fb
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/fsl-imx-fb
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/imx7dea-ucom
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/imx7dea-ucom
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/imx7dea-ucom
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/imx7dea-ucom
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/mx7d
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/mx7d
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/mx7d
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/mx7d
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/mx7
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/mx7
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/mx7
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/mx7
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/imx
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/imx
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/imx
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/imx
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/armv7a
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/armv7a
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/armv7a
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/armv7a
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/arm
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/arm
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/arm
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/arm
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-ea/recipes-bsp/u-boot/files/
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx-2015.04/
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/u-boot-imx/
+    /home/hernan/yocto_EA/ucom-4.1.15/sources/meta-fsl-bsp-release/imx/meta-bsp/recipes-bsp/u-boot/files/
+NOTE: Applying patch '0001-adding-EA-COM-boards_2015_04_3.14.52.patch' (../sources/meta-ea/recipes-bsp/u-boot/files/0001-adding-EA-COM-boards_2015_04_3.14.52.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

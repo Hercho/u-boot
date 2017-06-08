@@ -1,0 +1,72 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function do_package_qa
+NOTE: DO PACKAGE QA
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+NOTE: Checking Package: u-boot-imx-dev
+NOTE: Checking Package: u-boot-imx-dbg
+NOTE: Checking Package: u-boot-imx-doc
+NOTE: Checking Package: u-boot-imx
+NOTE: Checking Package: u-boot-imx-locale
+NOTE: Checking Package: u-boot-imx-staticdev
+NOTE: DONE with PACKAGE QA
+DEBUG: Python function do_package_qa finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 002 (not 22) for sstate packaging
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_qa/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom' | tee /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_qa/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
++ 
++ cd
+cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_qa/
+ /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_qa/
+
+
++ 
++ sstate_create_package
+sstate_create_package
+
+
++ mktemp /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.XXXXXXXX
+
++ mktemp /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.XXXXXXXX
++ 
++ TFILE=/home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.npicghwE
+TFILE=/home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.npicghwE
+
+
++ 
++ ls
+ls -A
+ -A
+
+
++ [  ]
++ tar -cz --file=/home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.npicghwE --files-from=/dev/null
+
++ [  ]
++ tar -cz --file=/home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.npicghwE --files-from=/dev/null
++ chmod 0664 /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.npicghwE
+
++ chmod 0664 /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.npicghwE
++ mv -f /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.npicghwE /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz
+
++ mv -f /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz.npicghwE /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/f8/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:f8509aea9ecc682295f9f9e92ed96442_package_qa.tgz
++ [ -n  ]
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0
++ rm -rf /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_qa/
+
++ [ -n  ]
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0
++ rm -rf /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-package_qa/
++ ret=0
++ trap  0
++ exit 0
+
++ ret=0
++ trap  0
++ exit 0
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Python function sstate_task_postfunc finished

@@ -1,0 +1,14 @@
+PN: u-boot-imx
+PV: 2015.04
+PR: r0
+PKGV: 2015.04
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-imx-staticdev: U-Boot provided by Freescale with focus on  i.MX reference boards.  This package contains static libraries for software development.
+SUMMARY_u-boot-imx-staticdev: Universal Boot Loader for embedded devices - Development files (Static Libraries)
+RDEPENDS_u-boot-imx-staticdev: u-boot-imx-dev (= 2015.04-r0)
+SECTION_u-boot-imx-staticdev: devel
+PKG_u-boot-imx-staticdev: u-boot-imx-staticdev
+FILES_u-boot-imx-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/u-boot-imx/*.a
+FILES_INFO: {}
+PKGSIZE_u-boot-imx-staticdev: 0

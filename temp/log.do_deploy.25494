@@ -1,0 +1,129 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing shell function do_deploy
++ 
++ cd
+cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git
+ /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git
+
+
++ 
++ do_deploy
+do_deploy
+
+
++ 
++ [
+[ xsd
+ xsd !=
+ != x
+ x ]
+ ]
+
+
++ 
++ expr
+expr +
+ + 1
+ 1
+
+
++ i=1
+
++ i=1
++ expr + 1
+
++ expr + 1
++ j=1
++ [ 1 -eq 1 ]
++ install -d /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-u-boot-imx
+
++ j=1
++ [ 1 -eq 1 ]
++ install -d /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-u-boot-imx
++ install /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git/mx7dea-ucom_config/u-boot-sd.imx /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-u-boot-imx/u-boot-sd-2015.04-r0.imx
+
++ install /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git/mx7dea-ucom_config/u-boot-sd.imx /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-u-boot-imx/u-boot-sd-2015.04-r0.imx
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-u-boot-imx
++ ln -sf u-boot-sd-2015.04-r0.imx u-boot-imx7dea-ucom.imx-sd
+
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-u-boot-imx
++ ln -sf u-boot-sd-2015.04-r0.imx u-boot-imx7dea-ucom.imx-sd
++ ln -sf u-boot-sd-2015.04-r0.imx u-boot-imx7dea-ucom.imx
+
++ ln -sf u-boot-sd-2015.04-r0.imx u-boot-imx7dea-ucom.imx
++ ln -sf u-boot-sd-2015.04-r0.imx u-boot.imx-sd
+
++ ln -sf u-boot-sd-2015.04-r0.imx u-boot.imx-sd
++ ln -sf u-boot-sd-2015.04-r0.imx u-boot.imx
+
++ ln -sf u-boot-sd-2015.04-r0.imx u-boot.imx
++ unset j
++ unset i
+
++ unset j
++ unset i
+DEBUG: Shell function do_deploy finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Staging files from /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-u-boot-imx to /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/deploy/images/imx7dea-ucom
+NOTE: Using umask 002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/deploy-u-boot-imx for packaging at /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-deploy/deploy-u-boot-imx
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-deploy/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom' | tee /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-deploy/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/hernan/yocto_EA/ucom-4.1.15/build/tmp/sysroots/imx7dea-ucom:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-deploy/
++ sstate_create_package
+
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-deploy/
++ sstate_create_package
++ 
++ mktemp
+mktemp /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.XXXXXXXX
+ /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.XXXXXXXX
+
+
++ TFILE=/home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.WtEStjGD
+
++ TFILE=/home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.WtEStjGD
++ 
++ ls
+ls -A
+ -A
+
+
++ [ deploy-u-boot-imx ]
++ set +e
++ tar -czf /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.WtEStjGD deploy-u-boot-imx
+
++ [ deploy-u-boot-imx ]
++ set +e
++ tar -czf /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.WtEStjGD deploy-u-boot-imx
++ ret=0
++ [ 0 -ne 0 ]
++ set -e
++ chmod 0664 /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.WtEStjGD
+
++ ret=0
++ [ 0 -ne 0 ]
++ set -e
++ chmod 0664 /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.WtEStjGD
++ mv -f /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.WtEStjGD /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz
+
++ mv -f /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz.WtEStjGD /home/hernan/yocto_EA/ucom-4.1.15/build/sstate-cache/e3/sstate:u-boot-imx:imx7dea_ucom-poky-linux-gnueabi:2015.04:r0:imx7dea_ucom:3:e3191c52439a09567794faebe43a4385_deploy.tgz
++ [ -n  ]
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0
++ rm -rf /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-deploy/
+
++ [ -n  ]
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0
++ rm -rf /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/sstate-build-deploy/
++ ret=0
++ trap  0
++ exit 0
+
++ ret=0
++ trap  0
++ exit 0
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Python function sstate_task_postfunc finished

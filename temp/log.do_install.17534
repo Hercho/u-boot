@@ -1,0 +1,61 @@
+DEBUG: Executing shell function do_install
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git
++ do_install
++ [ xsd != x ]
+
++ cd /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git
++ do_install
++ [ xsd != x ]
++ 
++ expr
+expr +
+ + 1
+ 1
+
+
++ i=1
+
++ i=1
++ 
++ expr
+expr +
+ + 1
+ 1
+
+
++ j=1
++ [ 1 -eq 1 ]
++ install -d /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/image/boot
+
++ j=1
++ [ 1 -eq 1 ]
++ install -d /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/image/boot
++ install /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git/mx7dea-ucom_config/u-boot-sd.imx /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/image/boot/u-boot-sd-2015.04-r0.imx
+
++ install /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/git/mx7dea-ucom_config/u-boot-sd.imx /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/image/boot/u-boot-sd-2015.04-r0.imx
++ ln -sf u-boot-sd-2015.04-r0.imx /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/image/boot/u-boot.imx-sd
+
++ ln -sf u-boot-sd-2015.04-r0.imx /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/image/boot/u-boot.imx-sd
++ ln -sf u-boot-sd-2015.04-r0.imx /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/image/boot/u-boot.imx
+
++ ln -sf u-boot-sd-2015.04-r0.imx /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/image/boot/u-boot.imx
++ unset j
++ unset i
++ [ x != x ]
++ [ -e /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/fw_env.config ]
++ [ x != x ]
++ [ x != x ]
++ ret=0
++ trap  0
++ exit 0
+
++ unset j
++ unset i
++ [ x != x ]
++ [ -e /home/hernan/yocto_EA/ucom-4.1.15/build/tmp/work/imx7dea_ucom-poky-linux-gnueabi/u-boot-imx/2015.04-r0/fw_env.config ]
++ [ x != x ]
++ [ x != x ]
++ ret=0
++ trap  0
++ exit 0
+DEBUG: Shell function do_install finished
